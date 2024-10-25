@@ -108,7 +108,7 @@ nav a{
     background-image: url(div2_img.jpg);
     display: flex;
     flex-direction: column;
-    gap: 100px;
+    gap: 10px;
     color: var(--text-color);
     align-items: center;
     justify-content: start;
@@ -124,6 +124,58 @@ nav a{
 .cards{
     display: flex;
     width:100%;
-    justify-content: center;
-    gap: 60PX;
+    gap: 10PX;
+}
+
+.card{
+    font-size: 12px;
+}
+
+.featured_speaker
+{
+    background-color: var(--text-color);
+    min-height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 90px;
+}
+
+
+.featured_speaker h2
+{
+    color: var(--primary-color);
+    text-decoration: underline;
+    text-decoration-color:var(--secondary-color) ;
+}
+
+
+.feature_start
+{
+    min-height: 80vh;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+}
+
+.card-title{
+    color: var(--secondary-color);
+    font-weight: 600;
+}
+
+.row{
+    margin: 10px;
+}
+
+#card_img
+{
+    height: 20px
+}
+#card{
+    display: flex;
+    flex-direction: column;
+}
+
+#card1{
+    display: flex;
 }
