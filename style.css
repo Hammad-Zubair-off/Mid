@@ -75,7 +75,7 @@ nav a{
     height: 90vh;
     width: 100%;
     padding: 0 90px;
-    background-image:url(banner_main_image.jpg) ;
+    background-image:url(banner.png) ;
     display: flex;
     color: var(--text-color);
     align-items: center;
@@ -84,19 +84,22 @@ nav a{
 
 .div1_info{
     width: 80%;
-
+    color: var(--primary-color);
+    font-weight: 700;
 }
 
 
 .div1_info h2{
-    color:var(--secondary-color);
-    font-size: 40px;
+    color: #ff3c28;
+    font-size: 50px;
+    font-weight: 900;
     margin: 20px 0;
 }
 
 .div1_info h3{
     color: var(--secondary-color);
     font-size: 18px;
+    font-weight: 700;
     margin: 20px 0;
 }
 
@@ -105,7 +108,7 @@ nav a{
     min-height: 60vh;
     width: 100%;
     padding: 0 90px;
-    background-image: url(div2_img.jpg);
+    background-image: url(imgg1.png);
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -120,15 +123,42 @@ nav a{
     text-decoration: underline ;
     text-decoration-color: var(--secondary-color);
 }
+.div1_info P{
+    border: 1px solid white;
+    padding: 10px;
+}
+
+.enroll_info button{
+    font-weight: 900;
+    border: none;
+    padding: 10px;
+    width: 111px;
+    border-radius: 14px;
+    background-color: red;
+    color: white;
+    margin-right: 30px;
+}
+
+.enroll_info button:hover{
+    background-color: #272a31;
+    color: var(--secondary-color);
+}
 
 .cards{
     display: flex;
     width:100%;
     gap: 10PX;
+    justify-content: center;
+    
 }
 
-.card{
+.card_program{
     font-size: 12px;
+    width: 24%;
+}
+
+.card .card-title{
+    text-align: center;
 }
 
 .featured_speaker
@@ -153,7 +183,7 @@ nav a{
 
 .feature_start
 {
-    min-height: 80vh;
+    min-height: 30vh;
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(3,1fr);
 }
@@ -171,19 +201,115 @@ nav a{
 {
     height: 20px
 }
-#card{
-    display: flex;
-    flex-direction: column;
-}
 
-#card1{
-    display: flex;
-}
-
-#card1{
-    display: flex;
+#speakers-container{
+    margin: 20px 0;
 }
 
 .h21{
     display: flex;
+}
+
+.block{
+    display: flex;
+    height: 200px;
+
+}
+
+.left_block{
+    height: 100%;
+    width: 39%;
+    
+}
+
+.right_block{
+
+}
+
+.partner{
+    height: 191px;
+    width: 100%;
+    background-color: var(--primary-color);
+    padding: 20px 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.partner h2
+{
+    height: 56px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color:var(--secondary-color) ;
+    color: var(--text-color);
+    
+
+}
+
+#card_program{
+    border: 1px solid white;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+}
+
+.par_img{
+    height: 78px;
+    width: 100%;
+    text-align: center;
+}
+
+.par_img img{
+    height: 100%;
+    width: 200px;
+    margin: 0 12px;
+}
+
+footer{
+    height: 191px;
+    background-color: var(--text-color);
+    display: flex;
+    align-items: center;
+    
+}
+
+button#view-more-btn{
+    font-weight: 900;
+    border: none;
+    padding: 10px;
+    width: 150px;
+    border-radius: 14px;
+    background-color: red;
+    color: white;
+    margin-right: 30px;
+}
+
+footer img{
+    height: 80%;
+    width: 30%;
+}
+
+.footer p {
+    margin: 5px 0;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-links li {
+    margin: 0 10px;
+}
+
+.footer-links a {
+    color:var(--primary-color);
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
 }
