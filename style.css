@@ -1,0 +1,129 @@
+.lato-light {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+.lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.lato-bold {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: lato;
+}
+
+:root {
+    --primary-color: #272a31;
+    --secondary-color: #ec5242;
+    --text-color: #d3d3d3;
+  }
+
+
+
+  .top_nav{
+    display: flex;
+    height: 30px;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    padding: 0 90px ;
+  }
+
+a{
+    margin: 0 10px;
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+nav{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 90px ;
+    background-color:white;
+
+}
+
+nav img{
+    height: 100%;
+}
+
+nav a{
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+#Home_menu_link{
+    color: var(--secondary-color);
+}
+.div1{
+    height: 90vh;
+    width: 100%;
+    padding: 0 90px;
+    background-image:url(banner_main_image.jpg) ;
+    display: flex;
+    color: var(--text-color);
+    align-items: center;
+    gap: 80px;
+}
+
+.div1_info{
+    width: 80%;
+
+}
+
+
+.div1_info h2{
+    color:var(--secondary-color);
+    font-size: 40px;
+    margin: 20px 0;
+}
+
+.div1_info h3{
+    color: var(--secondary-color);
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.div2_info
+{
+    min-height: 60vh;
+    width: 100%;
+    padding: 0 90px;
+    background-image: url(div2_img.jpg);
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    color: var(--text-color);
+    align-items: center;
+    justify-content: start;
+    padding-bottom: 50PX;
+}
+
+.div2_info h2{
+    margin-top: 50px;
+    text-decoration: underline ;
+    text-decoration-color: var(--secondary-color);
+}
+
+.cards{
+    display: flex;
+    width:100%;
+    justify-content: center;
+    gap: 60PX;
+}
